@@ -7,9 +7,9 @@ using System.Resources;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TipCalculator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Windows Phone App to Calculate Tip")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("DigiOz Multimedia, Inc.")]
 [assembly: AssemblyProduct("TipCalculator")]
 [assembly: AssemblyCopyright("Copyright ©  2011")]
 [assembly: AssemblyTrademark("")]

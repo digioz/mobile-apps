@@ -1,9 +1,9 @@
-﻿<xapCache source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\TipCalculator.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="12/20/2011 10:48:59 AM">
-  <file source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="12/20/2011 10:48:59 AM" />
-  <file source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Background.png" archivePath="Background.png" lastWriteTime="9/1/2011 4:17:22 PM" />
-  <file source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="9/1/2011 4:17:22 PM" />
-  <file source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\TipCalculator.dll" archivePath="TipCalculator.dll" lastWriteTime="12/20/2011 10:48:59 AM" />
-  <file source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\bin\Windows Phone\Release\TipCalculatorLib.dll" archivePath="TipCalculatorLib.dll" lastWriteTime="12/20/2011 10:48:58 AM" />
-  <file source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="9/1/2011 4:17:22 PM" />
-  <file source="E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/20/2011 10:48:59 AM" />
+﻿<xapCache source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculator\Bin\Release\TipCalculator.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="12/20/2011 3:51:15 PM">
+  <file source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculator\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="12/20/2011 10:48:59 AM" />
+  <file source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculator\Background.png" archivePath="Background.png" lastWriteTime="9/1/2011 4:17:22 PM" />
+  <file source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculator\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="9/1/2011 4:17:22 PM" />
+  <file source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculator\obj\Release\TipCalculator.dll" archivePath="TipCalculator.dll" lastWriteTime="12/20/2011 3:51:13 PM" />
+  <file source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculatorLib\bin\Windows Phone\Release\TipCalculatorLib.dll" archivePath="TipCalculatorLib.dll" lastWriteTime="12/20/2011 3:51:12 PM" />
+  <file source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculator\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="9/1/2011 4:17:22 PM" />
+  <file source="E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculator\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/20/2011 10:48:59 AM" />
 </xapCache>

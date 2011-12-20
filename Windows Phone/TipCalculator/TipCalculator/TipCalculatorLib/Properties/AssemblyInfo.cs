@@ -8,8 +8,8 @@ using System.Resources;
 // associated with an assembly.
 [assembly: AssemblyTitle("TipCalculatorLib")]
 [assembly: AssemblyProduct("TipCalculatorLib")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyDescription("Windows Phone App to Calculate Tip Library")]
+[assembly: AssemblyCompany("DigiOz Multimedia, Inc.")]
 [assembly: AssemblyCopyright("Copyright ©  2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -8,10 +8,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLibContent\</RootDirectory>
-      <LoggerRootDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\obj\Windows Phone\Release\</IntermediateDirectory>
-      <OutputDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\bin\Windows Phone\Release\Content\</OutputDirectory>
+      <RootDirectory>E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculatorLibContent\</RootDirectory>
+      <LoggerRootDirectory>E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculatorLib\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculatorLib\obj\Windows Phone\Release\</IntermediateDirectory>
+      <OutputDirectory>E:\_Projects\digioz\mobile-apps\Windows Phone\TipCalculator\TipCalculator\TipCalculatorLib\bin\Windows Phone\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
