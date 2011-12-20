@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A50E4576-C687-4F44-ABEA-A49CDF8E70D4}</ContentProjectGUID>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLibContent\</RootDirectory>
+      <LoggerRootDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\bin\Windows Phone\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-12-10T14:16:36.3226181-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

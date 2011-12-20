@@ -1,0 +1,6 @@
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\bin\Windows Phone\Debug\TipCalculatorLib.dll
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\bin\Windows Phone\Debug\TipCalculatorLib.pdb
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\obj\Windows Phone\Debug\TipCalculatorLib.dll
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLib\obj\Windows Phone\Debug\TipCalculatorLib.pdb

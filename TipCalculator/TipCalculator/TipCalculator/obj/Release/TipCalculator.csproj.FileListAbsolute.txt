@@ -1,0 +1,16 @@
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\ApplicationIcon.png
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\Background.png
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\TipCalculator.dll
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\TipCalculator.pdb
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\AppManifest.xaml
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\TipCalculator.xap
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\TipCalculatorLib.dll
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\Bin\Release\TipCalculatorLib.pdb
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\ResolveAssemblyReference.cache
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\App.g.i.cs
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\MainPage.g.i.cs
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\GamePage.g.i.cs
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\TipCalculator.g.resources
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\TipCalculator.dll
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\TipCalculator.pdb
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculator\obj\Release\XapCacheFile.xml

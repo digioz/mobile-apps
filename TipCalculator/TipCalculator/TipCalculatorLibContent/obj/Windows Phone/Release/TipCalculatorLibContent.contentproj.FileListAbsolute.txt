@@ -1,0 +1,1 @@
+E:\_Projects\digioz\mobile-apps\TipCalculator\TipCalculator\TipCalculatorLibContent\obj\Windows Phone\Release\ResolveAssemblyReference.cache
