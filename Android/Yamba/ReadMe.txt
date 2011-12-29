@@ -6,6 +6,7 @@ More information about this App can be found here:
 
 http://yamba.marakana.com/
 
+Note: This application was coded in Eclipse IDE Version 1.3.2.20110301-1807 using Android Development Tools (ADT) Plug-in version 16.0.1.v201112150204-238534.
 
 Thanks,
 Pete Soheil
