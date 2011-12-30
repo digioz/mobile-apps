@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="global" parent="@android:style/Theme.Light">
+    </style>
     <style name="title">
         <item name="android:textSize">30dp</item>
         <item name="android:gravity">right|center</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="activity" parent="@android:style/Theme.Light">
+    <style name="activity">
         <item name="android:background">@drawable/background</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_width">fill_parent</item>
@@ -17,5 +19,15 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    
+    <style name="editbox">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.49</item>
+        <item name="android:background">#609f</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">60dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item> 
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
 </resources>

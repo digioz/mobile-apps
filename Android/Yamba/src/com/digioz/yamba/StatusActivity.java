@@ -28,6 +28,8 @@ public class StatusActivity extends Activity implements OnClickListener {
     }
 
 	public void onClick(View v) {
+		Log.d("StatusActivity","Clicked on update button and entered method.");
+		
 		String status = editStatus.getText().toString();
 		
 		// Update status online
@@ -42,7 +44,7 @@ public class StatusActivity extends Activity implements OnClickListener {
 			Toast.makeText(this, R.string.msgStatusUpdateFailed, Toast.LENGTH_LONG).show();
 		}
 		
-		Log.d("StatusActivity","onClick'd with status: "+status);
+		Log.d("StatusActivity","Finished executing click event with status: "+status);
 		
 	}
 }
