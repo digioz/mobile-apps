@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical" android:background="#003">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/labelAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/labelAmount" />
+
+    <EditText
+        android:id="@+id/txtAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:inputType="numberDecimal">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelPercent" />
+
+    <EditText
+        android:id="@+id/txtPercent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/labelTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/labelTip" />
+
+    <EditText
+        android:id="@+id/txtTip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#666"
+        android:editable="false" android:gravity="center_vertical|center_horizontal" android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/buttonCalculate" />
+
+</LinearLayout>
