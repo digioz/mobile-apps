@@ -1,10 +1,14 @@
 package com.digioz.tipcalculator;
 
 import java.math.BigDecimal;
+import java.text.NumberFormat;
+
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -44,10 +48,19 @@ public class DigiOzTipCalculatorActivity extends Activity {
 									
 					tip = (amount * percent) / 100;
 					tipRounded = round(tip,2,BigDecimal.ROUND_HALF_UP);
-										
-					Log.d("DigiOzTipCalculatorActivity", "Calculated Tip: "+tipRounded.toString());
 					
-					txtTip.setText(tipRounded.toString());
+					NumberFormat nf = NumberFormat.getInstance();
+					nf.setMinimumFractionDigits(2);
+					nf.setMaximumFractionDigits(2);
+					String tipOutput = nf.format(tipRounded);
+					
+					Log.d("DigiOzTipCalculatorActivity", "Calculated Tip: "+tipOutput.toString());
+					
+					txtTip.setText(tipOutput.toString());
+					
+					// Hide keyboard
+					InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+					imm.hideSoftInputFromWindow(txtTip.getWindowToken(), 0);
 				} catch (NumberFormatException e) {
 					e.printStackTrace();
 					Log.d("DigiOzTipCalculatorActivity", "Failed to calculate Tip with error: "+e.toString());

@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_marginTop="20dp"
-    android:orientation="vertical" android:background="#003">
+    android:background="#003"
+    android:orientation="vertical" >
 
     <TextView
         android:layout_width="fill_parent"
@@ -22,7 +23,9 @@
     <EditText
         android:id="@+id/txtAmount"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:inputType="numberDecimal">
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="numberDecimal" >
 
         <requestFocus />
     </EditText>
@@ -37,27 +40,31 @@
     <EditText
         android:id="@+id/txtPercent"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:inputType="numberDecimal"/>
-
-    <TextView
-        android:id="@+id/labelTip"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="@string/labelTip" />
-
-    <EditText
-        android:id="@+id/txtTip"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#666"
-        android:editable="false" android:gravity="center_vertical|center_horizontal" android:inputType="numberDecimal"/>
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/buttonCalculate"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="@string/buttonCalculate" />
+
+    <TextView
+        android:id="@+id/labelTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/labelTip" />
+
+    <EditText
+        android:id="@+id/txtTip"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#cecece"
+        android:editable="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="numberDecimal" android:layout_weight="0"/>
 
 </LinearLayout>
