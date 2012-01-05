@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="global" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@drawable/background</item>
     </style>
     <style name="title">
         <item name="android:textSize">30dp</item>
