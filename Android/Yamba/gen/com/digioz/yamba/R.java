@@ -30,6 +30,7 @@ public final class R {
         public static final int buttonUpdate=0x7f050004;
         public static final int hello=0x7f050000;
         public static final int hintStatus=0x7f050003;
+        public static final int msgPleaseWaitWhilePosting=0x7f05000f;
         public static final int msgStatusUpdateFailed=0x7f050006;
         public static final int msgStatusUpdatedSuccessfully=0x7f050005;
         public static final int password=0x7f050009;
