@@ -25,4 +25,19 @@ read log file for debugging:
 > adb logcat
 
 > adb pull /sdcard/Yamba.trace
+> adb shell
 > traceview Yamba.trace
+
+From adb shell (you have to be in /data/data/com.digioz.yamba to query):
+
+>sqlite3 timeline.db (or >sqlite3 *)
+sqlite> .help
+sqlite> .schema
+sqlite> select * from statuses;
+sqlite> .quit
+
+To do a SQL Dump:
+
+sqlite> .dump
+sqlite> select count(*) from statuses;
+
