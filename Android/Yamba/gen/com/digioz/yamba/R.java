@@ -18,6 +18,8 @@ public final class R {
         public static final int buttonUpdate=0x7f080001;
         public static final int editStatus=0x7f080000;
         public static final int itemPrefs=0x7f080002;
+        public static final int itemServiceStart=0x7f080003;
+        public static final int itemServiceStop=0x7f080004;
     }
     public static final class layout {
         public static final int status=0x7f030000;
@@ -38,6 +40,8 @@ public final class R {
         public static final int server=0x7f05000b;
         public static final int serverSummary=0x7f05000c;
         public static final int titlePreferences=0x7f05000d;
+        public static final int titleServiceStart=0x7f050010;
+        public static final int titleServiceStop=0x7f050011;
         public static final int titleStatusUpdate=0x7f050002;
         public static final int titleTimeline=0x7f05000e;
         public static final int username=0x7f050007;

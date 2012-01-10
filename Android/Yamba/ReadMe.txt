@@ -12,3 +12,17 @@ Thanks,
 Pete Soheil
 DigiOz Multimedia
 www.digioz.com
+
+---------------------------------------------
+
+Useful Commands:
+----------------
+
+> cd C:\Users\[YourUsername]\android-sdks\platform-tools
+
+read log file for debugging:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> adb logcat
+
+> adb pull /sdcard/Yamba.trace
+> traceview Yamba.trace

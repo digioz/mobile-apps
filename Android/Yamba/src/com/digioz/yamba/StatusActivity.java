@@ -75,6 +75,12 @@ public class StatusActivity extends Activity implements OnClickListener {
 		case R.id.itemPrefs:
 			startActivity(new Intent(this, PrefsActivity.class));
 			break;
+		case R.id.itemServiceStart:
+			startService(new Intent(this, UpdaterService.class));
+			break;
+		case R.id.itemServiceStop:
+			stopService(new Intent(this, UpdaterService.class));
+			break;
 		}
 
 		return true;
@@ -88,7 +94,7 @@ public class StatusActivity extends Activity implements OnClickListener {
 
 			// Update status online
 			try {
-				YambaApplication app = ((YambaApplication) StatusActivity.this.getApplication());
+				YambaApplication app = ((YambaApplication) getApplication());
 				app.getTwitter().setStatus(status[0]);
 
 				result = StatusActivity.this

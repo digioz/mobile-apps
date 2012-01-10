@@ -17,5 +17,7 @@
     <string name="titlePreferences">Yamba Preferences</string>
     <string name="titleTimeline">Timeline</string>
     <string name="msgPleaseWaitWhilePosting">Please wait while posting</string>
+    <string name="titleServiceStart">Start Service</string>
+    <string name="titleServiceStop">Stop Service</string>
 
 </resources>
