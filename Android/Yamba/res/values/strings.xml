@@ -16,6 +16,6 @@
     <string name="serverSummary">Please enter your Server URL</string>
     <string name="titlePreferences">Yamba Preferences</string>
     <string name="titleTimeline">Timeline</string>
-    <string name="msgPleaseWaitWhilePosting">Please wait while posting ...</string>
+    <string name="msgPleaseWaitWhilePosting">Please wait while posting</string>
 
 </resources>

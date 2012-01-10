@@ -1,6 +1,5 @@
 package com.digioz.yamba;
 
-import winterwell.jtwitter.Twitter;
 import winterwell.jtwitter.TwitterException;
 import android.app.Activity;
 import android.app.Dialog;
@@ -89,9 +88,8 @@ public class StatusActivity extends Activity implements OnClickListener {
 
 			// Update status online
 			try {
-				Twitter twitter = new Twitter("student", "password");
-				twitter.setAPIRootUrl("http://yamba.marakana.com/api");
-				twitter.setStatus(status[0]);
+				YambaApplication app = ((YambaApplication) StatusActivity.this.getApplication());
+				app.getTwitter().setStatus(status[0]);
 
 				result = StatusActivity.this
 						.getString(R.string.msgStatusUpdatedSuccessfully);
