@@ -21,6 +21,12 @@ public class YambaApplication extends Application implements OnSharedPreferenceC
 		statusData = new StatusData(this);
 	}
 	
+	@Override
+	public void onTerminate() {
+		super.onTerminate();
+		statusData.close();
+	}
+
 	/**
 	 * Lazily initializes the 
 	 * connection to the online service

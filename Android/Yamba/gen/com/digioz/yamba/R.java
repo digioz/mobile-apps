@@ -17,13 +17,16 @@ public final class R {
     public static final class id {
         public static final int buttonUpdate=0x7f080001;
         public static final int editStatus=0x7f080000;
-        public static final int itemPrefs=0x7f080002;
-        public static final int itemPurge=0x7f080005;
-        public static final int itemServiceStart=0x7f080003;
-        public static final int itemServiceStop=0x7f080004;
+        public static final int itemPrefs=0x7f080004;
+        public static final int itemPurge=0x7f080007;
+        public static final int itemServiceStart=0x7f080005;
+        public static final int itemServiceStop=0x7f080006;
+        public static final int itemTimeline=0x7f080003;
+        public static final int textStatuses=0x7f080002;
     }
     public static final class layout {
         public static final int status=0x7f030000;
+        public static final int timeline=0x7f030001;
     }
     public static final class menu {
         public static final int menu=0x7f070000;

@@ -3,6 +3,7 @@ package com.digioz.yamba;
 import winterwell.jtwitter.Twitter.Status;
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
@@ -22,6 +23,10 @@ public class StatusData {
 	public StatusData(Context context) {
 		this.context = context;
 		dbHelper = new DbHelper(context);
+	}
+	
+	public void close() {
+		dbHelper.close();
 	}
 	
 	/**
@@ -63,6 +68,21 @@ public class StatusData {
 		
 		// Close Database
 		db.close();
+	}
+	
+	public Cursor query() {
+		// Open Database
+		SQLiteDatabase db = dbHelper.getReadableDatabase();
+		Cursor c = null;
+		
+		try {
+			// Get the data
+			c = db.query(DbHelper.TABLE, null, null, null, null, null, C_CREATED_AT + " DESC");
+		} catch (Exception e) {
+			db.close();
+		}
+		
+		return c;
 	}
 	
 	/**

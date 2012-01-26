@@ -87,6 +87,9 @@ public class StatusActivity extends Activity implements OnClickListener {
 			yamba.statusData.delete();
 			Toast.makeText(this, R.string.msgAllDataPurged, Toast.LENGTH_LONG).show();
 			break;
+		case R.id.itemTimeline:
+			startActivity(new Intent(this, TimelineActivity.class));
+			break;
 		}
 
 		return true;

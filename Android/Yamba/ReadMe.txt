@@ -21,19 +21,23 @@ Username: student
 Password: password
 API URL:  http://yamba.marakana.com/api
 
+Android Built In Graphics Overview:
+-----------------------------------
+http://androiddrawableexplorer.appspot.com/
+
 Useful Commands:
 ----------------
-
 > cd C:\Users\[YourUsername]\android-sdks\platform-tools
 
 read log file for debugging:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 > adb logcat
-
 > adb pull /sdcard/Yamba.trace
 > adb shell
 > traceview Yamba.trace
 
+SQLite:
+-------
 From adb shell (you have to be in "cd data/data/com.digioz.yamba/databases/" to query):
 
 >sqlite3 timeline.db (database name + .db)
@@ -42,9 +46,10 @@ sqlite> .tables
 sqlite> .schema
 sqlite> select * from statuses;
 sqlite> .quit
-
-To do a SQL Dump:
-
-sqlite> .dump
 sqlite> select count(*) from statuses;
+
+SQL Dump:
+~~~~~~~~~
+sqlite> .dump
+
 

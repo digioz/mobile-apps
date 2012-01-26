@@ -22,6 +22,7 @@
         </activity>
         
         <activity android:name=".PrefsActivity" />
+        <activity android:name=".TimelineActivity" />
         
         <service android:name=".UpdaterService" />
     </application>
