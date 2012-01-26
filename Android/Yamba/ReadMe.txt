@@ -15,6 +15,12 @@ www.digioz.com
 
 ---------------------------------------------
 
+Server API Info:
+----------------
+Username: student
+Password: password
+API URL:  http://yamba.marakana.com/api
+
 Useful Commands:
 ----------------
 
@@ -28,10 +34,11 @@ read log file for debugging:
 > adb shell
 > traceview Yamba.trace
 
-From adb shell (you have to be in /data/data/com.digioz.yamba to query):
+From adb shell (you have to be in "cd data/data/com.digioz.yamba/databases/" to query):
 
->sqlite3 timeline.db (or >sqlite3 *)
+>sqlite3 timeline.db (database name + .db)
 sqlite> .help
+sqlite> .tables
 sqlite> .schema
 sqlite> select * from statuses;
 sqlite> .quit

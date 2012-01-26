@@ -21,11 +21,13 @@ public class StatusActivity extends Activity implements OnClickListener {
 	Button buttonUpdate;
 	ProgressDialog postingDialog;
 	static final int DIALOG_ID = 47;
+	YambaApplication yamba;
 
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		yamba = (YambaApplication)getApplication();
 		setContentView(R.layout.status);
 
 		editStatus = (EditText) findViewById(R.id.editStatus);
@@ -80,6 +82,10 @@ public class StatusActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.itemServiceStop:
 			stopService(new Intent(this, UpdaterService.class));
+			break;
+		case R.id.itemPurge:
+			yamba.statusData.delete();
+			Toast.makeText(this, R.string.msgAllDataPurged, Toast.LENGTH_LONG).show();
 			break;
 		}
 

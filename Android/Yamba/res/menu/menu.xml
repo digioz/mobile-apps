@@ -3,6 +3,7 @@
     <item android:id="@+id/itemPrefs" android:title="@string/titlePreferences" android:icon="@android:drawable/ic_menu_preferences"></item>
     <item android:id="@+id/itemServiceStart" android:icon="@android:drawable/ic_media_play" android:title="@string/titleServiceStart"></item>
     <item android:id="@+id/itemServiceStop" android:icon="@android:drawable/ic_media_pause" android:title="@string/titleServiceStop"></item>
+    <item android:id="@+id/itemPurge" android:icon="@android:drawable/ic_menu_delete" android:title="@string/titlePurge"></item>
     
 
 </menu>

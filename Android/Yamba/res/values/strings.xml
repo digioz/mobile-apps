@@ -19,5 +19,7 @@
     <string name="msgPleaseWaitWhilePosting">Please wait while posting</string>
     <string name="titleServiceStart">Start Service</string>
     <string name="titleServiceStop">Stop Service</string>
+    <string name="titlePurge">Purge</string>
+    <string name="msgAllDataPurged">All data has been purged</string>
 
 </resources>

@@ -9,6 +9,7 @@ import android.preference.PreferenceManager;
 public class YambaApplication extends Application implements OnSharedPreferenceChangeListener{
 	SharedPreferences prefs;
 	private Twitter twitter;
+	StatusData statusData;
 	
 	@Override
 	public void onCreate() {
@@ -16,6 +17,8 @@ public class YambaApplication extends Application implements OnSharedPreferenceC
 		
 		prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		prefs.registerOnSharedPreferenceChangeListener(this);
+		
+		statusData = new StatusData(this);
 	}
 	
 	/**
