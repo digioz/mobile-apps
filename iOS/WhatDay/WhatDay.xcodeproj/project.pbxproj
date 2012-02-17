@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64CE929314E54E0B00B05233 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE929214E54E0B00B05233 /* UIKit.framework */; };
+		64CE929514E54E0B00B05233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE929414E54E0B00B05233 /* Foundation.framework */; };
+		64CE929714E54E0B00B05233 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE929614E54E0B00B05233 /* CoreGraphics.framework */; };
+		64CE929D14E54E0B00B05233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CE929B14E54E0B00B05233 /* InfoPlist.strings */; };
+		64CE929F14E54E0B00B05233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE929E14E54E0B00B05233 /* main.m */; };
+		64CE92A314E54E0B00B05233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE92A214E54E0B00B05233 /* AppDelegate.m */; };
+		64CE92A614E54E0B00B05233 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CE92A414E54E0B00B05233 /* MainStoryboard_iPhone.storyboard */; };
+		64CE92A914E54E0B00B05233 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CE92A714E54E0B00B05233 /* MainStoryboard_iPad.storyboard */; };
+		64CE92AC14E54E0B00B05233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE92AB14E54E0B00B05233 /* ViewController.m */; };
+		64CE92B414E54E0B00B05233 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE92B314E54E0B00B05233 /* SenTestingKit.framework */; };
+		64CE92B514E54E0B00B05233 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE929214E54E0B00B05233 /* UIKit.framework */; };
+		64CE92B614E54E0B00B05233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE929414E54E0B00B05233 /* Foundation.framework */; };
+		64CE92BE14E54E0B00B05233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CE92BC14E54E0B00B05233 /* InfoPlist.strings */; };
+		64CE92C114E54E0B00B05233 /* WhatDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE92C014E54E0B00B05233 /* WhatDayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64CE92B714E54E0B00B05233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64CE928514E54E0B00B05233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CE928D14E54E0B00B05233;
+			remoteInfo = WhatDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64CE928E14E54E0B00B05233 /* WhatDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CE929214E54E0B00B05233 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64CE929414E54E0B00B05233 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64CE929614E54E0B00B05233 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64CE929A14E54E0B00B05233 /* WhatDay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatDay-Info.plist"; sourceTree = "<group>"; };
+		64CE929C14E54E0B00B05233 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64CE929E14E54E0B00B05233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64CE92A014E54E0B00B05233 /* WhatDay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatDay-Prefix.pch"; sourceTree = "<group>"; };
+		64CE92A114E54E0B00B05233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64CE92A214E54E0B00B05233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64CE92A514E54E0B00B05233 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		64CE92A814E54E0B00B05233 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		64CE92AA14E54E0B00B05233 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64CE92AB14E54E0B00B05233 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64CE92B214E54E0B00B05233 /* WhatDayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatDayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CE92B314E54E0B00B05233 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64CE92BB14E54E0B00B05233 /* WhatDayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatDayTests-Info.plist"; sourceTree = "<group>"; };
+		64CE92BD14E54E0B00B05233 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64CE92BF14E54E0B00B05233 /* WhatDayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatDayTests.h; sourceTree = "<group>"; };
+		64CE92C014E54E0B00B05233 /* WhatDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatDayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CE928B14E54E0B00B05233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE929314E54E0B00B05233 /* UIKit.framework in Frameworks */,
+				64CE929514E54E0B00B05233 /* Foundation.framework in Frameworks */,
+				64CE929714E54E0B00B05233 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CE92AE14E54E0B00B05233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE92B414E54E0B00B05233 /* SenTestingKit.framework in Frameworks */,
+				64CE92B514E54E0B00B05233 /* UIKit.framework in Frameworks */,
+				64CE92B614E54E0B00B05233 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CE928314E54E0B00B05233 = {
+			isa = PBXGroup;
+			children = (
+				64CE929814E54E0B00B05233 /* WhatDay */,
+				64CE92B914E54E0B00B05233 /* WhatDayTests */,
+				64CE929114E54E0B00B05233 /* Frameworks */,
+				64CE928F14E54E0B00B05233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64CE928F14E54E0B00B05233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CE928E14E54E0B00B05233 /* WhatDay.app */,
+				64CE92B214E54E0B00B05233 /* WhatDayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CE929114E54E0B00B05233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CE929214E54E0B00B05233 /* UIKit.framework */,
+				64CE929414E54E0B00B05233 /* Foundation.framework */,
+				64CE929614E54E0B00B05233 /* CoreGraphics.framework */,
+				64CE92B314E54E0B00B05233 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CE929814E54E0B00B05233 /* WhatDay */ = {
+			isa = PBXGroup;
+			children = (
+				64CE92A114E54E0B00B05233 /* AppDelegate.h */,
+				64CE92A214E54E0B00B05233 /* AppDelegate.m */,
+				64CE92A414E54E0B00B05233 /* MainStoryboard_iPhone.storyboard */,
+				64CE92A714E54E0B00B05233 /* MainStoryboard_iPad.storyboard */,
+				64CE92AA14E54E0B00B05233 /* ViewController.h */,
+				64CE92AB14E54E0B00B05233 /* ViewController.m */,
+				64CE929914E54E0B00B05233 /* Supporting Files */,
+			);
+			path = WhatDay;
+			sourceTree = "<group>";
+		};
+		64CE929914E54E0B00B05233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CE929A14E54E0B00B05233 /* WhatDay-Info.plist */,
+				64CE929B14E54E0B00B05233 /* InfoPlist.strings */,
+				64CE929E14E54E0B00B05233 /* main.m */,
+				64CE92A014E54E0B00B05233 /* WhatDay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64CE92B914E54E0B00B05233 /* WhatDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				64CE92BF14E54E0B00B05233 /* WhatDayTests.h */,
+				64CE92C014E54E0B00B05233 /* WhatDayTests.m */,
+				64CE92BA14E54E0B00B05233 /* Supporting Files */,
+			);
+			path = WhatDayTests;
+			sourceTree = "<group>";
+		};
+		64CE92BA14E54E0B00B05233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CE92BB14E54E0B00B05233 /* WhatDayTests-Info.plist */,
+				64CE92BC14E54E0B00B05233 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CE928D14E54E0B00B05233 /* WhatDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CE92C414E54E0B00B05233 /* Build configuration list for PBXNativeTarget "WhatDay" */;
+			buildPhases = (
+				64CE928A14E54E0B00B05233 /* Sources */,
+				64CE928B14E54E0B00B05233 /* Frameworks */,
+				64CE928C14E54E0B00B05233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatDay;
+			productName = WhatDay;
+			productReference = 64CE928E14E54E0B00B05233 /* WhatDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64CE92B114E54E0B00B05233 /* WhatDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CE92C714E54E0B00B05233 /* Build configuration list for PBXNativeTarget "WhatDayTests" */;
+			buildPhases = (
+				64CE92AD14E54E0B00B05233 /* Sources */,
+				64CE92AE14E54E0B00B05233 /* Frameworks */,
+				64CE92AF14E54E0B00B05233 /* Resources */,
+				64CE92B014E54E0B00B05233 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CE92B814E54E0B00B05233 /* PBXTargetDependency */,
+			);
+			name = WhatDayTests;
+			productName = WhatDayTests;
+			productReference = 64CE92B214E54E0B00B05233 /* WhatDayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CE928514E54E0B00B05233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Google Voice";
+			};
+			buildConfigurationList = 64CE928814E54E0B00B05233 /* Build configuration list for PBXProject "WhatDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64CE928314E54E0B00B05233;
+			productRefGroup = 64CE928F14E54E0B00B05233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CE928D14E54E0B00B05233 /* WhatDay */,
+				64CE92B114E54E0B00B05233 /* WhatDayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CE928C14E54E0B00B05233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE929D14E54E0B00B05233 /* InfoPlist.strings in Resources */,
+				64CE92A614E54E0B00B05233 /* MainStoryboard_iPhone.storyboard in Resources */,
+				64CE92A914E54E0B00B05233 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CE92AF14E54E0B00B05233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE92BE14E54E0B00B05233 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64CE92B014E54E0B00B05233 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CE928A14E54E0B00B05233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE929F14E54E0B00B05233 /* main.m in Sources */,
+				64CE92A314E54E0B00B05233 /* AppDelegate.m in Sources */,
+				64CE92AC14E54E0B00B05233 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CE92AD14E54E0B00B05233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE92C114E54E0B00B05233 /* WhatDayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64CE92B814E54E0B00B05233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CE928D14E54E0B00B05233 /* WhatDay */;
+			targetProxy = 64CE92B714E54E0B00B05233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64CE929B14E54E0B00B05233 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE929C14E54E0B00B05233 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64CE92A414E54E0B00B05233 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE92A514E54E0B00B05233 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		64CE92A714E54E0B00B05233 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE92A814E54E0B00B05233 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		64CE92BC14E54E0B00B05233 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE92BD14E54E0B00B05233 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CE92C214E54E0B00B05233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64CE92C314E54E0B00B05233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64CE92C514E54E0B00B05233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatDay/WhatDay-Prefix.pch";
+				INFOPLIST_FILE = "WhatDay/WhatDay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64CE92C614E54E0B00B05233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatDay/WhatDay-Prefix.pch";
+				INFOPLIST_FILE = "WhatDay/WhatDay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64CE92C814E54E0B00B05233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatDay.app/WhatDay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatDay/WhatDay-Prefix.pch";
+				INFOPLIST_FILE = "WhatDayTests/WhatDayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64CE92C914E54E0B00B05233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatDay.app/WhatDay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatDay/WhatDay-Prefix.pch";
+				INFOPLIST_FILE = "WhatDayTests/WhatDayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CE928814E54E0B00B05233 /* Build configuration list for PBXProject "WhatDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE92C214E54E0B00B05233 /* Debug */,
+				64CE92C314E54E0B00B05233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CE92C414E54E0B00B05233 /* Build configuration list for PBXNativeTarget "WhatDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE92C514E54E0B00B05233 /* Debug */,
+				64CE92C614E54E0B00B05233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64CE92C714E54E0B00B05233 /* Build configuration list for PBXNativeTarget "WhatDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE92C814E54E0B00B05233 /* Debug */,
+				64CE92C914E54E0B00B05233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CE928514E54E0B00B05233 /* Project object */;
+}

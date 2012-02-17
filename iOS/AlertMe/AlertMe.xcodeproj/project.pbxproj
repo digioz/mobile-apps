@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		646C11EA14DCA8BD008AD766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C11E914DCA8BD008AD766 /* UIKit.framework */; };
+		646C11EC14DCA8BD008AD766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C11EB14DCA8BD008AD766 /* Foundation.framework */; };
+		646C11EE14DCA8BD008AD766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C11ED14DCA8BD008AD766 /* CoreGraphics.framework */; };
+		646C11F414DCA8BD008AD766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 646C11F214DCA8BD008AD766 /* InfoPlist.strings */; };
+		646C11F614DCA8BD008AD766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646C11F514DCA8BD008AD766 /* main.m */; };
+		646C11FA14DCA8BD008AD766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646C11F914DCA8BD008AD766 /* AppDelegate.m */; };
+		646C11FD14DCA8BD008AD766 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646C11FB14DCA8BD008AD766 /* MainStoryboard_iPhone.storyboard */; };
+		646C120014DCA8BD008AD766 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646C11FE14DCA8BD008AD766 /* MainStoryboard_iPad.storyboard */; };
+		646C120314DCA8BD008AD766 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646C120214DCA8BD008AD766 /* ViewController.m */; };
+		646C120B14DCA8BD008AD766 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C120A14DCA8BD008AD766 /* SenTestingKit.framework */; };
+		646C120C14DCA8BD008AD766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C11E914DCA8BD008AD766 /* UIKit.framework */; };
+		646C120D14DCA8BD008AD766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C11EB14DCA8BD008AD766 /* Foundation.framework */; };
+		646C121514DCA8BD008AD766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 646C121314DCA8BD008AD766 /* InfoPlist.strings */; };
+		646C121814DCA8BD008AD766 /* AlertMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646C121714DCA8BD008AD766 /* AlertMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		646C120E14DCA8BD008AD766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 646C11DC14DCA8BD008AD766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 646C11E414DCA8BD008AD766;
+			remoteInfo = AlertMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		646C11E514DCA8BD008AD766 /* AlertMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		646C11E914DCA8BD008AD766 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		646C11EB14DCA8BD008AD766 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		646C11ED14DCA8BD008AD766 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		646C11F114DCA8BD008AD766 /* AlertMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertMe-Info.plist"; sourceTree = "<group>"; };
+		646C11F314DCA8BD008AD766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		646C11F514DCA8BD008AD766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		646C11F714DCA8BD008AD766 /* AlertMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertMe-Prefix.pch"; sourceTree = "<group>"; };
+		646C11F814DCA8BD008AD766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		646C11F914DCA8BD008AD766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		646C11FC14DCA8BD008AD766 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		646C11FF14DCA8BD008AD766 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		646C120114DCA8BD008AD766 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		646C120214DCA8BD008AD766 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		646C120914DCA8BD008AD766 /* AlertMeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertMeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646C120A14DCA8BD008AD766 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		646C121214DCA8BD008AD766 /* AlertMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertMeTests-Info.plist"; sourceTree = "<group>"; };
+		646C121414DCA8BD008AD766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		646C121614DCA8BD008AD766 /* AlertMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertMeTests.h; sourceTree = "<group>"; };
+		646C121714DCA8BD008AD766 /* AlertMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		646C11E214DCA8BD008AD766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646C11EA14DCA8BD008AD766 /* UIKit.framework in Frameworks */,
+				646C11EC14DCA8BD008AD766 /* Foundation.framework in Frameworks */,
+				646C11EE14DCA8BD008AD766 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646C120514DCA8BD008AD766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646C120B14DCA8BD008AD766 /* SenTestingKit.framework in Frameworks */,
+				646C120C14DCA8BD008AD766 /* UIKit.framework in Frameworks */,
+				646C120D14DCA8BD008AD766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		646C11DA14DCA8BD008AD766 = {
+			isa = PBXGroup;
+			children = (
+				646C11EF14DCA8BD008AD766 /* AlertMe */,
+				646C121014DCA8BD008AD766 /* AlertMeTests */,
+				646C11E814DCA8BD008AD766 /* Frameworks */,
+				646C11E614DCA8BD008AD766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		646C11E614DCA8BD008AD766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				646C11E514DCA8BD008AD766 /* AlertMe.app */,
+				646C120914DCA8BD008AD766 /* AlertMeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		646C11E814DCA8BD008AD766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646C11E914DCA8BD008AD766 /* UIKit.framework */,
+				646C11EB14DCA8BD008AD766 /* Foundation.framework */,
+				646C11ED14DCA8BD008AD766 /* CoreGraphics.framework */,
+				646C120A14DCA8BD008AD766 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		646C11EF14DCA8BD008AD766 /* AlertMe */ = {
+			isa = PBXGroup;
+			children = (
+				646C11F814DCA8BD008AD766 /* AppDelegate.h */,
+				646C11F914DCA8BD008AD766 /* AppDelegate.m */,
+				646C11FB14DCA8BD008AD766 /* MainStoryboard_iPhone.storyboard */,
+				646C11FE14DCA8BD008AD766 /* MainStoryboard_iPad.storyboard */,
+				646C120114DCA8BD008AD766 /* ViewController.h */,
+				646C120214DCA8BD008AD766 /* ViewController.m */,
+				646C11F014DCA8BD008AD766 /* Supporting Files */,
+			);
+			path = AlertMe;
+			sourceTree = "<group>";
+		};
+		646C11F014DCA8BD008AD766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				646C11F114DCA8BD008AD766 /* AlertMe-Info.plist */,
+				646C11F214DCA8BD008AD766 /* InfoPlist.strings */,
+				646C11F514DCA8BD008AD766 /* main.m */,
+				646C11F714DCA8BD008AD766 /* AlertMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		646C121014DCA8BD008AD766 /* AlertMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				646C121614DCA8BD008AD766 /* AlertMeTests.h */,
+				646C121714DCA8BD008AD766 /* AlertMeTests.m */,
+				646C121114DCA8BD008AD766 /* Supporting Files */,
+			);
+			path = AlertMeTests;
+			sourceTree = "<group>";
+		};
+		646C121114DCA8BD008AD766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				646C121214DCA8BD008AD766 /* AlertMeTests-Info.plist */,
+				646C121314DCA8BD008AD766 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		646C11E414DCA8BD008AD766 /* AlertMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646C121B14DCA8BD008AD766 /* Build configuration list for PBXNativeTarget "AlertMe" */;
+			buildPhases = (
+				646C11E114DCA8BD008AD766 /* Sources */,
+				646C11E214DCA8BD008AD766 /* Frameworks */,
+				646C11E314DCA8BD008AD766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertMe;
+			productName = AlertMe;
+			productReference = 646C11E514DCA8BD008AD766 /* AlertMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		646C120814DCA8BD008AD766 /* AlertMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646C121E14DCA8BD008AD766 /* Build configuration list for PBXNativeTarget "AlertMeTests" */;
+			buildPhases = (
+				646C120414DCA8BD008AD766 /* Sources */,
+				646C120514DCA8BD008AD766 /* Frameworks */,
+				646C120614DCA8BD008AD766 /* Resources */,
+				646C120714DCA8BD008AD766 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646C120F14DCA8BD008AD766 /* PBXTargetDependency */,
+			);
+			name = AlertMeTests;
+			productName = AlertMeTests;
+			productReference = 646C120914DCA8BD008AD766 /* AlertMeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		646C11DC14DCA8BD008AD766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Google Voice";
+			};
+			buildConfigurationList = 646C11DF14DCA8BD008AD766 /* Build configuration list for PBXProject "AlertMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 646C11DA14DCA8BD008AD766;
+			productRefGroup = 646C11E614DCA8BD008AD766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				646C11E414DCA8BD008AD766 /* AlertMe */,
+				646C120814DCA8BD008AD766 /* AlertMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		646C11E314DCA8BD008AD766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646C11F414DCA8BD008AD766 /* InfoPlist.strings in Resources */,
+				646C11FD14DCA8BD008AD766 /* MainStoryboard_iPhone.storyboard in Resources */,
+				646C120014DCA8BD008AD766 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646C120614DCA8BD008AD766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646C121514DCA8BD008AD766 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		646C120714DCA8BD008AD766 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		646C11E114DCA8BD008AD766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646C11F614DCA8BD008AD766 /* main.m in Sources */,
+				646C11FA14DCA8BD008AD766 /* AppDelegate.m in Sources */,
+				646C120314DCA8BD008AD766 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646C120414DCA8BD008AD766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646C121814DCA8BD008AD766 /* AlertMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		646C120F14DCA8BD008AD766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 646C11E414DCA8BD008AD766 /* AlertMe */;
+			targetProxy = 646C120E14DCA8BD008AD766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		646C11F214DCA8BD008AD766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646C11F314DCA8BD008AD766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		646C11FB14DCA8BD008AD766 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646C11FC14DCA8BD008AD766 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		646C11FE14DCA8BD008AD766 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646C11FF14DCA8BD008AD766 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		646C121314DCA8BD008AD766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646C121414DCA8BD008AD766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		646C121914DCA8BD008AD766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		646C121A14DCA8BD008AD766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		646C121C14DCA8BD008AD766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertMe/AlertMe-Prefix.pch";
+				INFOPLIST_FILE = "AlertMe/AlertMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		646C121D14DCA8BD008AD766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertMe/AlertMe-Prefix.pch";
+				INFOPLIST_FILE = "AlertMe/AlertMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		646C121F14DCA8BD008AD766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlertMe.app/AlertMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertMe/AlertMe-Prefix.pch";
+				INFOPLIST_FILE = "AlertMeTests/AlertMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		646C122014DCA8BD008AD766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlertMe.app/AlertMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertMe/AlertMe-Prefix.pch";
+				INFOPLIST_FILE = "AlertMeTests/AlertMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		646C11DF14DCA8BD008AD766 /* Build configuration list for PBXProject "AlertMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646C121914DCA8BD008AD766 /* Debug */,
+				646C121A14DCA8BD008AD766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646C121B14DCA8BD008AD766 /* Build configuration list for PBXNativeTarget "AlertMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646C121C14DCA8BD008AD766 /* Debug */,
+				646C121D14DCA8BD008AD766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		646C121E14DCA8BD008AD766 /* Build configuration list for PBXNativeTarget "AlertMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646C121F14DCA8BD008AD766 /* Debug */,
+				646C122014DCA8BD008AD766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 646C11DC14DCA8BD008AD766 /* Project object */;
+}

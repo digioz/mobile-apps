@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<string>chest fly</string>
+		<string>pec deck</string>
+		<string>pushing</string>
+		<string>chest dip</string>
+		<string>shoulder press</string>
+		<string>side lateral raise</string>
+		<string>upright now</string>
+		<string>lat pulldown</string>
+		<string>seated row</string>
+		<string>pullups</string>
+		<string>chinups</string>
+		<string>dumbbell row</string>
+		<string>shrug</string>
+		<string>crunch</string>
+		<string>reverse crunch</string>
+		<string>oblique crunch</string>
+		<string>leg extension</string>
+		<string>leg curl</string>
+		<string>leg press</string>
+		<string>squat</string>
+	</array>
+</dict>
+</plist>
